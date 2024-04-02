@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Suspense } from "react";
+import Loading from "@/app/loading";
 import HeroImage1 from "../../../public/banner 1.jpg";
 import HeroImage2 from "../../../public/BANNER 2.jpg";
 import HeroImage3 from "../../../public/banner 3.jpg";
@@ -32,11 +33,13 @@ const CarouselHero = () => {
               </p>
             </div>
           </div>
-          <Image
-            src={HeroImage1}
-            alt=""
-            className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
-          />
+          <Suspense fallback={<Loading />}>
+            <Image
+              src={HeroImage1}
+              alt=""
+              className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
+            />
+          </Suspense>
         </div>
         <div className="relative">
           <div className="h-[calc(100vh - 4rem)] sm:h-[98vh] backdrop-left absolute top-0 left-0 w-64 h-full bg-white opacity-50 flex items-center justify-center">
@@ -51,11 +54,13 @@ const CarouselHero = () => {
               </p>
             </div>
           </div>
-          <Image
-            src={HeroImage2}
-            alt={""}
-            className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
-          />
+          <Suspense fallback={<Loading />}>
+            <Image
+              src={HeroImage2}
+              alt={""}
+              className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
+            />
+          </Suspense>
         </div>
         <div className="relative">
           <div className="h-[calc(100vh - 4rem)] sm:h-[98vh] backdrop-left absolute top-0 left-0 w-64 h-full bg-white opacity-50 flex items-center justify-center">
@@ -69,11 +74,13 @@ const CarouselHero = () => {
               </p>
             </div>
           </div>
-          <Image
-            src={HeroImage3}
-            alt={""}
-            className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
-          />
+          <Suspense fallback={<Loading />}>
+            <Image
+              src={HeroImage3}
+              alt={""}
+              className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
+            />
+          </Suspense>
         </div>
         <div className="relative">
           <div className="h-[calc(100vh - 4rem)] sm:h-[98vh] backdrop-left absolute top-0 left-0 w-64 h-full bg-white opacity-50 flex items-center justify-center">
@@ -84,11 +91,13 @@ const CarouselHero = () => {
               </p>
             </div>
           </div>
-          <Image
-            src={HeroImage4}
-            alt={""}
-            className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
-          />
+          <Suspense fallback={<Loading />}>
+            <Image
+              src={HeroImage4}
+              alt={""}
+              className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
+            />
+          </Suspense>
         </div>
         <div className="relative">
           <div className="h-[calc(100vh - 4rem)] sm:h-[98vh] backdrop-left absolute top-0 left-0 w-64 h-full bg-white opacity-50 flex items-center justify-center">
@@ -99,11 +108,13 @@ const CarouselHero = () => {
               </p>
             </div>
           </div>
-          <Image
-            src={HeroImage5}
-            alt={""}
-            className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
-          />
+          <Suspense fallback={<Loading />}>
+            <Image
+              src={HeroImage5}
+              alt={""}
+              className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
+            />
+          </Suspense>
         </div>
         <div className="relative">
           <div className="h-[calc(100vh - 4rem)] sm:h-[98vh] backdrop-left absolute top-0 left-0 w-64 h-full bg-white opacity-50 flex items-center justify-center">
@@ -114,11 +125,13 @@ const CarouselHero = () => {
               </p>
             </div>
           </div>
-          <Image
-            src={HeroImage6}
-            alt={""}
-            className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
-          />
+          <Suspense fallback={<Loading />}>
+            <Image
+              src={HeroImage6}
+              alt={""}
+              className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
+            />
+          </Suspense>
         </div>
         <div className="relative">
           <div className="backdrop-left absolute top-0 left-0 w-64 h-full bg-white opacity-50 flex items-center justify-center">
@@ -129,11 +142,13 @@ const CarouselHero = () => {
               </p>
             </div>
           </div>
-          <Image
-            src={HeroImage7}
-            alt={""}
-            className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
-          />
+          <Suspense fallback={<Loading />}>
+            <Image
+              src={HeroImage7}
+              alt={""}
+              className="h-[calc(100vh - 4rem)] sm:h-[98vh]"
+            />
+          </Suspense>
         </div>
       </Carousel>
     </section>

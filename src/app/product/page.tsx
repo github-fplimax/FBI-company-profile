@@ -26,8 +26,8 @@ const Page = () => {
             objectFit="cover"
           />
         </div>
-        <div className="pt-[550px] grid grid-cols-1 sm:grid-cols-2">
-          <div data-aos="fade-up-left" className="flex justify-center items-center">
+        <div className="pt-[550px] gap-2 py-10 grid grid-cols-1 sm:grid-cols-2">
+          <div  className="flex justify-center items-center">
             <Image
               width={400}
               height={400}
@@ -36,7 +36,7 @@ const Page = () => {
               className="mt-8 rounded-l-3xl"
             />
           </div>
-          <div data-aos="fade-up-right" className="flex justify-center items-center">
+          <div  className="flex justify-center items-center">
             <div className="text-center">
               <h1 className="text-[#252525] text-2xl underline underline-offset-8">
                 Ready Mix Concrete
@@ -51,7 +51,7 @@ const Page = () => {
               </button>
             </div>
           </div>
-          <div data-aos="fade-up-left" className="flex justify-center items-center pb-3">
+          <div  className="flex justify-center items-center pb-3">
             <div className="text-center">
               <h1 className="text-[#252525] text-2xl underline underline-offset-8">
                 Concrete Pump
@@ -65,7 +65,7 @@ const Page = () => {
               </button>
             </div>
           </div>
-          <div data-aos="fade-up-right" className="flex justify-center items-center">
+          <div  className="flex justify-center items-center">
             <Image
               width={400}
               height={400}
@@ -74,7 +74,7 @@ const Page = () => {
               className=" rounded-r-3xl"
             />
           </div>
-          <div data-aos="fade-up-left" className="flex justify-center items-center">
+          <div  className="flex justify-center items-center">
             <Image
               width={400}
               height={400}
@@ -83,7 +83,7 @@ const Page = () => {
               className="mt-8 rounded-l-3xl"
             />
           </div>
-          <div data-aos="fade-up-right" className="flex justify-center items-center">
+          <div  className="flex justify-center items-center">
             <div className="text-center">
               <h1 className="text-[#252525] text-2xl underline underline-offset-8">
                 Precast
@@ -98,7 +98,7 @@ const Page = () => {
               </button>
             </div>
           </div>
-          <div data-aos="fade-up-left" className="flex justify-center items-center">
+          <div  className="flex justify-center items-center">
             <div className="text-center">
               <h1 className="text-[#252525] text-2xl underline underline-offset-8">
                 Batching Plant
@@ -113,7 +113,7 @@ const Page = () => {
               </button>
             </div>
           </div>
-          <div data-aos="fade-up-right" className="flex justify-center items-center">
+          <div  className="flex justify-center items-center">
             <Image
               width={400}
               height={400}
@@ -122,7 +122,7 @@ const Page = () => {
               className=" rounded-r-3xl"
             />
           </div>
-          <div data-aos="fade-up-left" className="flex justify-center items-center">
+          <div  className="flex justify-center items-center">
             <Image
               width={400}
               height={400}
@@ -131,7 +131,7 @@ const Page = () => {
               className="mt-8 rounded-l-3xl"
             />
           </div>
-          <div data-aos="fade-up-right" className="flex justify-center items-center pb-3">
+          <div  className="flex justify-center items-center pb-3">
             <div className="text-center">
               <h1 className="text-[#252525] text-2xl underline underline-offset-8">
                 Mobile Batching Plant
